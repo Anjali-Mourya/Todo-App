@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url('healthyfood.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+.body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(202, 172, 116);
+  opacity: 0.8;
+}
+.head img{
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+ h1{
+  text-align: center;
+  color: rgb(76, 29, 29);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+  border: 1px solid transparent;
+  width: 50%;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+#msg{
+  border: 1px solid #dadada;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+.container input{
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+  font-weight: 900;
+}
+button{
+  width: 80px;
+  float: right;
+}
+.btn btn-info .remove{
+  margin-right: 1rem;
+}
+.btn_gap button{
+  position: relative;
+  gap: 2rem;
+  margin: 5px;
+}
